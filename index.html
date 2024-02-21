@@ -1,0 +1,29 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjeta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Gorjeta</h1>
+        <div>
+            <label for="total">Total da Conta:</label>
+            <input type="number" id="total" placeholder="Insira o total da conta">
+        </div>
+        <div>
+            <label for="percentage">Porcentagem de Gorjeta:</label>
+            <select id="percentage">
+                <option value="5">5%</option>
+                <option value="10">10%</option>
+                <option value="15">15%</option>
+                <option value="20">20%</option>
+            </select>
+        </div>
+        <button id="calculate">Calcular Gorjeta</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
